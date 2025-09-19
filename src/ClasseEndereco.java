@@ -1,9 +1,9 @@
 
 public class ClasseEndereco {
 
-	String ruaAt;
-	String cidadeAt;
-	String estadoAt;
+	private String ruaAt;
+	private String cidadeAt;
+	private String estadoAt;
 
 	
 	public ClasseEndereco(String ruaPar, String cidadePar, String estadoPar) {

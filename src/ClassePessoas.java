@@ -1,9 +1,9 @@
 
 public class ClassePessoas {
 
-	String NomeAt;
-	int idadeAt;
-	ClasseEndereco enderecoAt;
+	private String NomeAt;
+	private int idadeAt;
+	private ClasseEndereco enderecoAt;
 	
 	public ClassePessoas() {
 		
