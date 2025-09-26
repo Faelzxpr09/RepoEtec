@@ -16,13 +16,15 @@ public class ClasseEndereco {
 	}
 	
 	public String pegarRua() {
-		return ruaAt;}
+		return ruaAt.toUpperCase();}
 	
 	public String pegarCidade() {
-		return cidadeAt;}
+		return cidadeAt.toUpperCase();}
 	
 	public String pegarEstado() {
-		return estadoAt;}
+		return estadoAt.toUpperCase();}
+	
+	
 	
 	public void alterar_rua(String ruaPar) {
 		this.ruaAt = ruaPar;}
