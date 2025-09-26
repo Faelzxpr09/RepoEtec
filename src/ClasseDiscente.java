@@ -7,6 +7,9 @@ public class ClasseDiscente extends ClassePessoas{
 	private int nota4At;
 		
 	
+	
+	
+	
 	public ClasseDiscente(int nota1Par, int nota2Par, int nota3Par, int nota4Par,
 	String NomePar, int idadePar, ClasseEndereco enderecoPar) {
 		super(NomePar, idadePar, enderecoPar);
@@ -16,6 +19,7 @@ public class ClasseDiscente extends ClassePessoas{
 		this.nota3At = nota3Par;
 		this.nota4At = nota4Par;
 	}
+	
 	
 	public int alterar_nota1() {
 		return nota1At;}

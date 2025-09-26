@@ -5,6 +5,9 @@ public class ClasseEndereco {
 	private String cidadeAt;
 	private String estadoAt;
 
+	public ClasseEndereco(){
+		
+	}
 	
 	public ClasseEndereco(String ruaPar, String cidadePar, String estadoPar) {
 		this.ruaAt = ruaPar;
